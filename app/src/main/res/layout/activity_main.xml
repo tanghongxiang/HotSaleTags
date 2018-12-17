@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.thx.hotsaleview.HotSaleView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_margin="20dp"
+        app:HotSaleViewHeight="40dp"
+        app:LeftTextSize="10sp"
+        app:LeftTextContent="OFF\n90%"
+        app:LeftBlockWidth="40dp"
+        app:RightTextContent="HOT"
+        app:RightBlockWidth="35dp"
+        app:RightBlockMMColorGrad="true"
+        app:RightBlockMMColorGradTop="#DE38AD"
+        app:RightBlockMMColorGradBottom="#A23BCA"
+        app:RightTextSize="10sp"
+        app:BlockMargin="1dp"
+        app:HotSaleViewStartRadius="15dp"
+        app:HotSaleViewEndRadius="25dp"/>
+
+</android.support.constraint.ConstraintLayout>

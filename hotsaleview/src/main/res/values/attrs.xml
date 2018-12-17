@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HotSaleView">
+        <attr name="HotSaleViewHeight" format="dimension"/>
+        <attr name="LeftBlockWidth" format="dimension"/>
+        <!--<attr name="LeftBlockHeight" format="dimension"/>-->
+        <attr name="LeftBlockMMColorGrad" format="boolean"/>
+        <attr name="LeftBlockBGColor" format="color"/>
+        <attr name="LeftBlockMMColorGradTop" format="color"/>
+        <attr name="LeftBlockMMColorGradBottom" format="color"/>
+        <attr name="LeftTextColor" format="color"/>
+        <attr name="LeftTextSize" format="dimension"/>
+        <attr name="LeftTextContent" format="string"/>
+        <attr name="BlockMargin"/>
+
+        <attr name="RightBlockWidth" format="dimension"/>
+        <!--<attr name="RightBlockHeight" format="dimension"/>-->
+        <attr name="RightBlockMMColorGrad" format="boolean"/>
+        <attr name="RightBlockBGColor" format="color"/>
+        <attr name="RightBlockMMColorGradTop" format="color"/>
+        <attr name="RightBlockMMColorGradBottom" format="color"/>
+        <attr name="RightTextColor" format="color"/>
+        <attr name="RightTextSize" format="dimension"/>
+        <attr name="RightTextContent" format="string"/>
+        <attr name="HotSaleViewStartRadius" format="dimension"/>
+        <attr name="HotSaleViewEndRadius" format="dimension"/>
+    </declare-styleable>
+</resources>
