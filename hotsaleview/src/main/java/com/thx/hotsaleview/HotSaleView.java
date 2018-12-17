@@ -174,7 +174,7 @@ public class HotSaleView extends View {
         invalidate();
     }
 
-    public void setmCanShowRightBlock(boolean show){
+    public void setCanShowRightBlock(boolean show){
         this.mCanShowRightBlock=show;
         invalidate();
     }

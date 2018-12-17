@@ -6,6 +6,7 @@
     android:orientation="vertical">
 
     <com.thx.hotsaleview.HotSaleView
+        android:id="@+id/mHotSaleView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
@@ -21,7 +22,6 @@
         app:RightBlockMMColorGradTop="#DE38AD"
         app:RightBlockWidth="85dp"
         app:RightTextContent="HOT"
-        app:RightTextSize="16sp"
-        app:CanShowRightBlock="true"/>
+        app:RightTextSize="16sp"/>
 
 </LinearLayout>
