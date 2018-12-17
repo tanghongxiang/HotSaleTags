@@ -1,4 +1,8 @@
 # HotSaleTags
+
+## 效果图
+![](https://raw.githubusercontent.com/tanghongxiang/HotSaleTags/master/app/src/main/res/mipmap-xxxhdpi/displayimg.png)
+
 | Attribute                     | Meaning                               | Format  |
 | ------------                  |---------------                        | --------|
 | HotSaleViewHeight             | HotSaleView的高度                      | dimension |
