@@ -3,6 +3,8 @@
 ## 效果图
 ![](https://raw.githubusercontent.com/tanghongxiang/HotSaleTags/master/app/src/main/res/mipmap-xxxhdpi/displayimg.png)
 
+## 属性方法参考
+
 | Attribute                     | Meaning                               | Format  |
 | ------------                  |---------------                        | --------|
 | HotSaleViewHeight             | HotSaleView的高度                      | dimension |
