@@ -32,6 +32,7 @@ public class HotSaleView extends View {
     private float mEndRadius;
     private Spanned mLeftBlockText;
     private String mRightBlockText;
+    private boolean mCanShowRightBlock;
 
     public HotSaleView(Context context) {
         super(context);
@@ -56,11 +57,11 @@ public class HotSaleView extends View {
         super.onDraw(canvas);
         paint = new Paint();
         drawLeftBlock(canvas);
-        drawRightBlock(canvas);
         drawLeftText(canvas);
-        drawRigthText(canvas);
-        canvas.save();
-        canvas.restore();
+        if(mCanShowRightBlock||typedArray.getBoolean(R.styleable.HotSaleView_CanShowRightBlock,false)){
+            drawRightBlock(canvas);
+            drawRigthText(canvas);
+        }
     }
 
     private void drawLeftBlock(Canvas canvas) {
@@ -96,6 +97,7 @@ public class HotSaleView extends View {
     }
 
     private void drawRightBlock(Canvas canvas) {
+        canvas.restore();
         int colors[] = new int[2];
         float positions[] = new float[2];
         if(typedArray.getBoolean(R.styleable.HotSaleView_RightBlockMMColorGrad,false)){
@@ -145,7 +147,6 @@ public class HotSaleView extends View {
     }
 
     private void drawRigthText(Canvas canvas) {
-        canvas.restore();
         TextPaint textPaint = new TextPaint();
         textPaint.setColor(typedArray.getColor(R.styleable.HotSaleView_RightTextColor, 0xFF00FF00));
         textPaint.setTextSize(typedArray.getDimension(R.styleable.HotSaleView_RightTextSize, 38));
@@ -170,6 +171,11 @@ public class HotSaleView extends View {
 
     public void setRightBlockText(String content) {
         this.mRightBlockText = content;
+        invalidate();
+    }
+
+    public void setmCanShowRightBlock(boolean show){
+        this.mCanShowRightBlock=show;
         invalidate();
     }
 }

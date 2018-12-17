@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical">
 
     <com.thx.hotsaleview.HotSaleView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" android:layout_margin="20dp"
-        app:HotSaleViewHeight="40dp"
-        app:LeftTextSize="10sp"
-        app:LeftTextContent="OFF\n90%"
-        app:LeftBlockWidth="40dp"
-        app:RightTextContent="HOT"
-        app:RightBlockWidth="35dp"
-        app:RightBlockMMColorGrad="true"
-        app:RightBlockMMColorGradTop="#DE38AD"
-        app:RightBlockMMColorGradBottom="#A23BCA"
-        app:RightTextSize="10sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
         app:BlockMargin="1dp"
-        app:HotSaleViewStartRadius="15dp"
-        app:HotSaleViewEndRadius="25dp"/>
+        app:HotSaleViewEndRadius="55dp"
+        app:HotSaleViewHeight="100dp"
+        app:HotSaleViewStartRadius="45dp"
+        app:LeftBlockWidth="100dp"
+        app:LeftTextContent="OFF\n90%"
+        app:LeftTextSize="16sp"
+        app:RightBlockMMColorGrad="true"
+        app:RightBlockMMColorGradBottom="#A23BCA"
+        app:RightBlockMMColorGradTop="#DE38AD"
+        app:RightBlockWidth="85dp"
+        app:RightTextContent="HOT"
+        app:RightTextSize="16sp"
+        app:CanShowRightBlock="true"/>
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>

@@ -11,7 +11,7 @@
         <attr name="LeftTextColor" format="color"/>
         <attr name="LeftTextSize" format="dimension"/>
         <attr name="LeftTextContent" format="string"/>
-        <attr name="BlockMargin"/>
+        <attr name="BlockMargin" format="dimension"/>
 
         <attr name="RightBlockWidth" format="dimension"/>
         <!--<attr name="RightBlockHeight" format="dimension"/>-->
@@ -24,5 +24,6 @@
         <attr name="RightTextContent" format="string"/>
         <attr name="HotSaleViewStartRadius" format="dimension"/>
         <attr name="HotSaleViewEndRadius" format="dimension"/>
+        <attr name="CanShowRightBlock" format="boolean"/>
     </declare-styleable>
 </resources>
