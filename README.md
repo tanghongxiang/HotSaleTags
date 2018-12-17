@@ -1,7 +1,10 @@
-# HotSaleTags
+# HotSaleTags 
+最新版本    [![](https://jitpack.io/v/tanghongxiang/HotSaleTags.svg)](https://jitpack.io/#tanghongxiang/HotSaleTags)
 
 ## 效果图
 ![](https://raw.githubusercontent.com/tanghongxiang/HotSaleTags/master/app/src/main/res/mipmap-xxxhdpi/displayimg.png)
+
+
 
 ## 属性方法参考
 
@@ -36,3 +39,44 @@
 | setLeftBlockText      | LeftBlock文字      | Spanned |
 | setRightBlockText     | RightBlock文字     | String |
 | setCanShowRightBlock  | 是否显示RightBlock | boolean |
+
+
+
+# How to To get a Git project into your build?
+
+## Gradle
+> Step 1. Add the JitPack repository to your build file
+> Add it in your root build.gradle at the end of repositories:
+```
+  allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+> Step 2. Add the dependency
+```
+  dependencies {
+	        implementation 'com.github.tanghongxiang:HotSaleTags:V1.0.0'
+	}
+```
+
+## Maven
+> Step 1. Add the JitPack repository to your build file
+```
+  <repositories>
+    <repository>
+      <id>jitpack.io</id>
+      <url>https://jitpack.io</url>
+    </repository>
+  </repositories>
+```
+> Step 2. Add the dependency
+```
+  <dependency>
+    <groupId>com.github.tanghongxiang</groupId>
+    <artifactId>HotSaleTags</artifactId>
+    <version>V1.0.0</version>
+  </dependency>
+```
