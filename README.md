@@ -58,7 +58,7 @@
 > Step 2. Add the dependency
 ```
   	dependencies {
-	        implementation 'com.github.tanghongxiang:HotSaleTags:V1.0.0'
+	        implementation 'com.github.tanghongxiang:HotSaleTags:v1.0.0'
 	}
 ```
 
@@ -77,6 +77,6 @@
   <dependency>
     <groupId>com.github.tanghongxiang</groupId>
     <artifactId>HotSaleTags</artifactId>
-    <version>V1.0.0</version>
+    <version>v1.0.0</version>
   </dependency>
 ```
