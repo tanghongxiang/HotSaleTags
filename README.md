@@ -42,7 +42,7 @@
 
 
 
-# How to To get a Git project into your build?
+# How to To get HotSaleView into your build?
 
 ## Gradle
 > Step 1. Add the JitPack repository to your build file
